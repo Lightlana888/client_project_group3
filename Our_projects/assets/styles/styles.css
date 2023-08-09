@@ -1,0 +1,61 @@
+/* Основные цвета */
+:root {
+  --green: #b4d3a7;
+  --orange: #f07f5f;
+  --middlegreen: #c6dab5;
+  --lightgreen: #dde5ce;
+  --brightorange: #e84841;
+}
+
+/* Шрифт заголовков */
+/* font-family: "Pacifico", sans-serif; */
+
+/* Шрифт текста */
+/* font-family: "Open Sans", sans-serif; */
+/* font-weight: 300; */
+
+/* Заголовок страницы */
+.projects-page__h1 {
+  font-family: "Pacifico", sans-serif;
+  color: var(--brightorange);
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+}
+
+/* Общие стили для карточки */
+
+.projects-page__card {
+  max-width: 450px;
+  margin: auto;
+}
+
+.projects-page__card-title {
+  font-family: "Pacifico", sans-serif;
+  color: var(--brightorange);
+}
+
+.card-img-top {
+  max-height: 300px;
+}
+.projects-page__card-footer {
+  background-color: white;
+  border-top: none;
+}
+
+.card-footer__orange-btn {
+  background-color: var(--brightorange);
+  border-color: var(--brightorange);
+  margin-top: 5px;
+}
+
+.card-footer__white-btn {
+  color: var(--brightorange);
+  border-color: var(--brightorange);
+  margin-top: 5px;
+}
+
+.card-footer__orange-btn:hover,
+.card-footer__white-btn:hover {
+  background-color: var(--green);
+  border-color: var(--green);
+}
