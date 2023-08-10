@@ -12,6 +12,128 @@
     <title>Вещевая помощь</title>
   </head>
   <body>
+    <!-- Хедер -->
+    <header></header>
+    <!-- Заголовок страницы -->
+    <div class="container">
+      <div class="row">
+        <div class="co12">
+          <h1 class="text-center cloth-assistance__h1">Вещевая помощь</h1>
+          <p
+            class="card-text shadow p-3 lh-base fs-5 card-text-cloth-assistance"
+          >
+            Суть проекта: помочь нуждающимся, обеспечить их необходимыми вещами.
+            Основной критерий оценки вещи – вы бы надели её сами, то есть
+            одежда, обувь, игрушки или постельное белье, которые вы сдаёте, не
+            должны быть грязными или дырявыми. Одежда и обувь должна быть
+            рассортирована по пакетам по размеру и подписана. Принимаем всё – от
+            футболок до мебели.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Заголовок аккордеона с адресами "Куда принести" -->
+    <div class="container photos-page">
+      <div class="row">
+        <div class="co12">
+          <h2 class="cloth-assistance__h1">Куда принести:</h2>
+        </div>
+      </div>
+    </div>
+    <!-- Аккаордеон с адресами "Куда принести" -->
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="accordion shadow" id="accordionClothAssistance">
+            <div class="accordion-item">
+              <h2 class="accordion-header accordion-headerClothAssistance">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseOne"
+                >
+                  <strong>Магазин “Главпарфюмер”</strong>
+                </button>
+              </h2>
+              <div
+                id="flush-collapseOne"
+                class="accordion-collapse collapse show"
+                data-bs-parent="#accordionClothAssistance"
+              >
+                <div class="accordion-body">
+                  Молодежная, 34<br />
+                  Ежедневно с 10 до 20 часов
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header accordion-headerClothAssistance">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseTwo"
+                >
+                  <strong>Компания СДЭК</strong>
+                </button>
+              </h2>
+              <div
+                id="flush-collapseTwo"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionClothAssistance"
+              >
+                <div class="accordion-body">
+                  Малахова улица, 179<br />Гридасова, 15Б ст1<br />Красноармейский
+                  проспект, 64<br />Павловский тракт, 299<br />ТОЦ Демидовский,
+                  Красноармейский проспект, 15<br />Комсомольский проспект,
+                  44<br />Балтийская, 105<br />65 лет Победы, 29<br />Проспект
+                  Ленина, 47<br />Советская, 10<br />Малахова улица, 83<br />Проспект
+                  Ленина, 150<br />Проспект Строителей, 26<br />Улица Шумакова,
+                  61<br />Балтийская, 13<br />Проспект Ленина, 112<br />Юрина,
+                  305<br />Балтийская, 50<br />Попова, 114<br />Новосибирская
+                  улица, 1а<br />Проспект Дзержинского, 3<br />Юрина, 188Б<br />Прудская
+                  улица, 6<br />Северо-Западная, 171<br />ТРЦ Малина, Попова,
+                  82<br />Малахова улица, 122<br />Проспект Ленина, 161<br />280-летия
+                  Барнаула, 21<br />Улица 22 Партсъезда, 4<br />Попова, 5г<br />Павловский
+                  тракт, 134а<br />50 лет СССР, 6<br />Антона Петрова, 208Б<br />Власихинская
+                  улица, 141<br />Проспект Ленина, 148<br />Партизанская, 201<br />Улица
+                  Строителей, 15<br />Банковский переулок, 2Б<br />Каменский
+                  тракт, 5г
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header accordion-headerClothAssistance">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThree"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseThree"
+                >
+                  <strong>Студия красоты “Шоколад”</strong>
+                </button>
+              </h2>
+              <div
+                id="flush-collapseThree"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionClothAssistance"
+              >
+                <div class="accordion-body">
+                  65 лет Победы, 41<br />Ежедневно с 10 до 20 часов
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="../assets/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
