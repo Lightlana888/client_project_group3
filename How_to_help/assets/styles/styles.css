@@ -1,0 +1,23 @@
+/* Основные цвета */
+:root {
+    --green: #b4d3a7;
+    --orange: #f07f5f;
+    --middlegreen: #c6dab5;
+    --lightgreen: #dde5ce;
+    --brightorange: #e84841;
+}
+
+/* Шрифт заголовков */
+/* font-family: "Pacifico", sans-serif; */
+
+/* Шрифт текста */
+/* font-family: "Open Sans", sans-serif; */
+/* font-weight: 300; */
+
+/* Заголовок страницы */
+.how_to_help_h1 {
+    font-family: "Pacifico", sans-serif;
+    color: var(--brightorange);
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
