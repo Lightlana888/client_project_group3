@@ -24,13 +24,53 @@
         </div>
       </div>
     </div>
+    <!-- Модальное окно для кнопки "Куплю сам" на карточке проекта "Согреться дома" -->
+    <div
+      class="modal fade"
+      id="buyFirewood"
+      tabindex="-1"
+      aria-labelledby="buyFirewoodLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="buyFirewoodLabel">Сам куплю</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Закрыть"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Если Вы хотите приобрести дрова или уголь самостоятельно, свяжитесь
+            с нами по номеру <a href="tel:+79230065688">+7 923 006 56 88</a>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-outline-secondary border-2 card-footer__white-btn"
+              data-bs-dismiss="modal"
+            >
+              ЗАКРЫТЬ
+            </button>
+            <a
+              href="#"
+              class="btn btn-secondary border-2 card-footer__orange-btn"
+              >КОНТАКТЫ</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- Карточки -->
     <div class="container projects-page__cards">
       <div class="row row-cols-1 row-cols-md-2 g-4">
         <div class="col">
           <div class="card h-100 shadow-lg projects-page__card">
             <img
-              src="./assets/images/img3.png"
+              src="./assets/images/img_for_cards/3.jpg"
               class="card-img-top"
               alt="img_projects"
             />
@@ -54,7 +94,7 @@
                 >НУЖНА ПОМОЩЬ</a
               >
               <a
-                href="#"
+                href="./subpages_for_projects/food_assistance.html"
                 class="btn btn-outline-secondary border-2 card-footer__white-btn"
                 >ПОМОЧЬ</a
               >
@@ -64,7 +104,7 @@
         <div class="col">
           <div class="card h-100 shadow-lg projects-page__card">
             <img
-              src="./assets/images/img1.jpg"
+              src="./assets/images/img_for_cards/7.jpg"
               class="card-img-top"
               alt="img_projects"
             />
@@ -90,18 +130,22 @@
                 class="btn btn-outline-secondary border-2 card-footer__white-btn"
                 >ПОМОЧЬ</a
               >
-              <a
-                href="#"
+              <!-- Кнопка триггер модального окна -->
+              <button
+                type="button"
                 class="btn btn-secondary border-2 card-footer__orange-btn orange-btn-3"
-                >САМ КУПЛЮ</a
+                data-bs-toggle="modal"
+                data-bs-target="#buyFirewood"
               >
+                САМ КУПЛЮ
+              </button>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card h-100 shadow-lg projects-page__card">
             <img
-              src="./assets/images/img2.jpg"
+              src="./assets/images/renovation/1.jpg"
               class="card-img-top"
               alt="img_projects"
             />
@@ -122,7 +166,7 @@
             </div>
             <div class="card-footer p-4 projects-page__card-footer">
               <a
-                href="#"
+                href="./subpages_for_projects/cloth_assistance.html"
                 class="btn btn-secondary border-2 card-footer__orange-btn"
                 >КУДА ПРИНЕСТИ</a
               >
@@ -132,7 +176,7 @@
         <div class="col">
           <div class="card h-100 shadow-lg projects-page__card">
             <img
-              src="./assets/images/img3.png"
+              src="./assets/images/img_for_cards/10.jpg"
               class="card-img-top"
               alt="img_projects"
             />
@@ -166,7 +210,7 @@
         <div class="col">
           <div class="card h-100 shadow-lg projects-page__card">
             <img
-              src="./assets/images/img1.jpg"
+              src="./assets/images/img_for_cards/17.jpg"
               class="card-img-top"
               alt="img_projects"
             />
