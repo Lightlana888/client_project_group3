@@ -40,25 +40,27 @@ a:hover {
 
 .my-text {
     font-family: 'Open Sans', sans-serif;
-    overflow: scroll;
 }
 
 .down {
     width: 30px;
 }
 
+.about-owners {
+    margin: 0 auto;
+}
+
 .owners {
     background-image: url(../assets/images/owners.jpg);
     background-position: top center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     min-height: 300px;
-    min-width: 300px;
+    min-width: 280px;
+    overflow: hidden !important;
 }
 
 .owner-text {
-    overflow: scroll;
-    max-height: 500px;
     min-width: 300px;
 }
 
