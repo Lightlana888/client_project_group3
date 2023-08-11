@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../assets/styles/bootstrap.min.css" />
+    <link rel="stylesheet" href="food_assistance.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <title>Продуктовая помощь</title>
+  </head>
+  <body>
+    <!-- Хедер -->
+    <header></header>
+    <!-- Заголовок страницы -->
+    <div class="container">
+      <div class="row">
+        <div class="co12">
+          <h1 class="text-center food-assistance__h1">Продуктовая помощь</h1>
+        </div>
+      </div>
+    </div>
+    <!-- Заголовок аккордеона с составом продуктового набора -->
+    <div class="container photos-page">
+      <div class="row">
+        <div class="co12">
+          <h2 class="food-assistance__h1">
+            Собрать продуктовый набор самостоятельно
+          </h2>
+        </div>
+      </div>
+    </div>
+    <!-- Аккаордеон с составом продуктового набора -->
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div
+            class="accordion shadow accordionFoodAssistance"
+            id="accordionFoodAssistance1"
+          >
+            <div class="accordion-item">
+              <h2
+                class="accordion-header accordion-headerFoodAssistance fw-bold"
+              >
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapse"
+                  aria-expanded="false"
+                  aria-controls="flush-collapse"
+                >
+                  <strong>Состав продуктового набора:</strong>
+                </button>
+              </h2>
+              <div
+                id="flush-collapse"
+                class="accordion-collapse collapse show"
+                data-bs-parent="#accordionFoodAssistance1"
+              >
+                <div class="accordion-body">
+                  <ul>
+                    <li>мука, 2 килограмма;</li>
+                    <li>подсолнечное масло, 1 литр;</li>
+                    <li>гречневая крупа, 1 упаковка;</li>
+                    <li>рис, 1 упаковка;</li>
+                    <li>лапша, 1 упаковка;</li>
+                    <li>рыбные консервы типа сайра, 1 банка;</li>
+                    <li>тушенка, 2 банки;</li>
+                    <li>сгущенное молоко, 1 банка;</li>
+                    <li>сахар, 1 килограмм;</li>
+                    <li>чай черный пакетированный, 100 пакетиков;</li>
+                    <li>печенье и/или конфеты;</li>
+                    <li>что-то длительного хранения на свое усмотрение</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Заголовок аккордеона с адресами "Куда принести" -->
+    <div class="container photos-page">
+      <div class="row">
+        <div class="co12">
+          <h2 class="food-assistance__h1">Куда принести:</h2>
+        </div>
+      </div>
+    </div>
+    <!-- Аккаордеон с адресами "Куда принести" -->
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="accordion shadow" id="accordionFoodAssistance">
+            <div class="accordion-item">
+              <h2 class="accordion-header accordion-headerFoodAssistance">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseOne"
+                >
+                  <strong>Магазин “Главпарфюмер”</strong>
+                </button>
+              </h2>
+              <div
+                id="flush-collapseOne"
+                class="accordion-collapse collapse show"
+                data-bs-parent="#accordionFoodAssistance"
+              >
+                <div class="accordion-body">
+                  Молодежная, 34<br />
+                  Ежедневно с 10 до 20 часов
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header accordion-headerFoodAssistance">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseTwo"
+                >
+                  <strong>Компания СДЭК</strong>
+                </button>
+              </h2>
+              <div
+                id="flush-collapseTwo"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionFoodAssistance"
+              >
+                <div class="accordion-body">
+                  Малахова улица, 179<br />Гридасова, 15Б ст1<br />Красноармейский
+                  проспект, 64<br />Павловский тракт, 299<br />ТОЦ Демидовский,
+                  Красноармейский проспект, 15<br />Комсомольский проспект,
+                  44<br />Балтийская, 105<br />65 лет Победы, 29<br />Проспект
+                  Ленина, 47<br />Советская, 10<br />Малахова улица, 83<br />Проспект
+                  Ленина, 150<br />Проспект Строителей, 26<br />Улица Шумакова,
+                  61<br />Балтийская, 13<br />Проспект Ленина, 112<br />Юрина,
+                  305<br />Балтийская, 50<br />Попова, 114<br />Новосибирская
+                  улица, 1а<br />Проспект Дзержинского, 3<br />Юрина, 188Б<br />Прудская
+                  улица, 6<br />Северо-Западная, 171<br />ТРЦ Малина, Попова,
+                  82<br />Малахова улица, 122<br />Проспект Ленина, 161<br />280-летия
+                  Барнаула, 21<br />Улица 22 Партсъезда, 4<br />Попова, 5г<br />Павловский
+                  тракт, 134а<br />50 лет СССР, 6<br />Антона Петрова, 208Б<br />Власихинская
+                  улица, 141<br />Проспект Ленина, 148<br />Партизанская, 201<br />Улица
+                  Строителей, 15<br />Банковский переулок, 2Б<br />Каменский
+                  тракт, 5г
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header accordion-headerFoodAssistance">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThree"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseThree"
+                >
+                  <strong>Студия красоты “Шоколад”</strong>
+                </button>
+              </h2>
+              <div
+                id="flush-collapseThree"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionFoodAssistance"
+              >
+                <div class="accordion-body">
+                  65 лет Победы, 41<br />Ежедневно с 10 до 20 часов
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
