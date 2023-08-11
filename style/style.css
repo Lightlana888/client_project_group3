@@ -90,6 +90,15 @@ a:hover {
     background-color: var(--bgcolor);
 }
 
+span {
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+}
+
+.bg-light_salmon {
+    background-color: var(--bgcolor);
+}
+
 .discribe {
     background-color: var(--lightgreen);
 }
@@ -169,19 +178,11 @@ a:hover {
     border-color: var(--green);
 }
 
-.carousel-inner img {
-    object-fit: contain;
-    vertical-align: middle;
-    border-style: none;
-    height: 400px !important;
-    margin: 0 auto;
-}
-
 .articles-link {
     color: var(--bordercolor);
 }
 
-.donat-sect {
+.donat-sect, .under_footer {
     background-color: var(--lightgreen);
 }
 
