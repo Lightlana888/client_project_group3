@@ -1,0 +1,40 @@
+/* Основные цвета */
+:root {
+    --green: #b4d3a7;
+    --orange: #f07f5f;
+    --middlegreen: #c6dab5;
+    --lightgreen: #dde5ce;
+    --brightorange: #e84841;
+}
+
+body {
+    background: var(--lightgreen);
+}
+
+/* Шрифт заголовков */
+/* font-family: "Pacifico", sans-serif; */
+
+
+/* Заголовок страницы */
+.how_to_help_h1,
+.how-to-help-page__card-title {
+    font-family: "Pacifico", sans-serif;
+    color: var(--brightorange);
+    margin-top: 5vw;
+    margin-bottom: 3vw;
+}
+
+/* Заголовок страницы */
+.how_to_help_h1 {
+    text-transform: uppercase;
+}
+
+/* Кнопка */
+.card-footer__orange-btn {
+    background: var(--brightorange);
+}
+
+.card-footer__orange-btn:hover {
+    background-color: var(--green);
+    border-color: var(--green);
+}
