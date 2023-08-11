@@ -52,6 +52,14 @@ a:hover {
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
+    min-height: 300px;
+    min-width: 300px;
+}
+
+.owner-text {
+    overflow: scroll;
+    max-height: 500px;
+    min-width: 300px;
 }
 
 .my-btn {
