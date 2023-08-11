@@ -7,17 +7,34 @@
     --brightorange: #e84841;
 }
 
+body {
+    background: var(--lightgreen);
+}
+
 /* Шрифт заголовков */
 /* font-family: "Pacifico", sans-serif; */
 
-/* Шрифт текста */
-/* font-family: "Open Sans", sans-serif; */
-/* font-weight: 300; */
 
 /* Заголовок страницы */
-.how_to_help_h1 {
+.how_to_help_h1,
+.how-to-help-page__card-title {
     font-family: "Pacifico", sans-serif;
     color: var(--brightorange);
     margin-top: 5vw;
-    margin-bottom: 5vw;
+    margin-bottom: 3vw;
+}
+
+/* Заголовок страницы */
+.how_to_help_h1 {
+    text-transform: uppercase;
+}
+
+/* Кнопка */
+.card-footer__orange-btn {
+    background: var(--brightorange);
+}
+
+.card-footer__orange-btn:hover {
+    background-color: var(--green);
+    border-color: var(--green);
 }
