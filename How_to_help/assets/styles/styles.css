@@ -38,3 +38,8 @@ body {
     background-color: var(--green);
     border-color: var(--green);
 }
+
+ul.list-group {
+    list-style: none;
+    padding-left: 0;
+}
