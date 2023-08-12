@@ -196,6 +196,59 @@ span {
     color: var(--bordercolor);
 }
 
+.partners {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 50px;
+}
+
+.part {
+    height: 200px;
+    width: 200px;
+}
+
+.part_one {
+    background-image: url(../assets/images/alfa_bank.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.part_two {
+    background-image: url(../assets/images/cdek.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.part_three {
+    background-image: url(../assets/images/chocolad.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.part_four {
+    background-image: url(../assets/images/dari_edu.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.part_five {
+    background-image: url(../assets/images/glavparfumer.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.part_six {
+    background-image: url(../assets/images/starost_v_radost.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .donat-sect, .under_footer {
     background-color: var(--lightgreen);
 }
