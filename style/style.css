@@ -80,6 +80,10 @@ a:hover {
     background-color: var(--bgcolor);
 }
 
+.my-politics:active, .my-politics:focus {
+    background-color: var(--bgcolor);
+}
+
 .middle_btn {
     width: 200px !important;
 }
