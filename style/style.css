@@ -12,6 +12,10 @@
     --brightorange: #e84841;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Pacifico', cursive;
@@ -53,15 +57,11 @@ a:hover {
 .owners {
     background-image: url(../assets/images/owners.jpg);
     background-position: top center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     min-height: 300px;
     min-width: 280px;
     overflow: hidden !important;
-}
-
-.owner-text {
-    min-width: 300px;
 }
 
 .my-btn {
@@ -194,12 +194,6 @@ span {
 
 .articles-link {
     color: var(--bordercolor);
-}
-
-.partners {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 50px;
 }
 
 .part {
