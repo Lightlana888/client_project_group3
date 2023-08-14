@@ -14,12 +14,24 @@
 /* font-family: "Open Sans", sans-serif; */
 /* font-weight: 300; */
 
+/* Цвет фона всей страницы */
+
+body {
+  background-color: #eee;
+}
+
 /* Заголовок страницы */
 .photos-page__h1 {
   font-family: "Pacifico", sans-serif;
   color: var(--brightorange);
   margin-top: 5vw;
-  margin-bottom: 5vw;
+}
+
+.photos-page__h2 {
+  font-family: "Pacifico", sans-serif;
+  color: var(--brightorange);
+  margin-top: 3vw;
+  margin-bottom: 1vw;
 }
 
 /* Общие стили для каруселей */
