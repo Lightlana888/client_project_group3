@@ -26,7 +26,7 @@ body {
 }
 
 .bg-main {
-    background-color: var(--bgcolor);
+    background-color: var(--bgcolor) !important;
 }
 
 a {
@@ -39,7 +39,7 @@ a:hover {
 }
 
 .bg-green {
-    background-color: var(--maingreen);
+    background-color: var(--maingreen) !important;
 }
 
 .my-text {
