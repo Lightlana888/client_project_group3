@@ -1,0 +1,29 @@
+:root {
+    --maingreen: #b4d3a7;
+    --bgcolor: #f07f5f;
+    --middlegreen: #c6dab5;
+    --lightgreen: #dde5ce;
+    --bordercolor: #e84841;
+    --whitecolor: #fff;
+    --green: #b4d3a7;
+    --orange: #f07f5f;
+    --middlegreen: #c6dab5;
+    --lightgreen: #dde5ce;
+    --brightorange: #e84841;
+}
+
+.reports_h1,
+.report_title {
+    color: var(--brightorange);
+    font-family: 'Pacifico', cursive;
+}
+
+/*последний пост*/
+.row.stories {
+    justify-content: space-between;
+
+}
+
+body {
+    background: #eee;
+}
