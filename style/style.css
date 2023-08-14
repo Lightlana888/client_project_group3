@@ -246,6 +246,35 @@ span {
     background-position: center;
 }
 
+/* About organization page */
+.carousel {
+    max-width: 600px !important;
+    margin: 0 auto;
+}
+
+.carousel-inner img {
+    max-height: 650px !important;
+    margin: 0 auto;
+}
+
+.carousel-indicators li {
+    border-color: #000;
+}
+
+.carousel-indicators .active {
+    background-color: #000;
+}
+
+.organization_img {
+    max-width: 250px;
+}
+
+.org-link:hover {
+    color: var(--bordercolor) !important;
+}
+
+/* End organization page */
+
 /* under footer block */
 
 .donat-sect, .under_footer {
