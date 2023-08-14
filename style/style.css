@@ -21,6 +21,8 @@ body {
     font-family: 'Pacifico', cursive;
 }
 
+/* Beginning of the header */
+
 .logo {
     width: 150px;
 }
@@ -32,6 +34,7 @@ body {
 a {
     color: var(--whitecolor);
     font-weight: bold;
+    text-decoration: none;
 }
 
 a:hover {
@@ -49,6 +52,8 @@ a:hover {
 .down {
     width: 30px;
 }
+
+/* Beginning of the block with owner's photo */
 
 .about-owners {
     margin: 0 auto;
@@ -76,6 +81,8 @@ a:hover {
     color: var(--whitecolor);
 }
 
+/* Beginning of the confidental block */
+
 .politics, .my-politics {
     background-color: var(--bgcolor);
 }
@@ -92,6 +99,8 @@ a:hover {
     background-color: var(--maingreen);
 }
 
+/* styles of social media icons */
+
 .social-image {
     fill: var(--bordercolor);
 }
@@ -99,6 +108,8 @@ a:hover {
 .social-image:hover {
     fill: var(--maingreen);
 }
+
+/* end of style social media icons */
 
 .bg-card {
     background-color: var(--bgcolor);
@@ -113,24 +124,14 @@ span {
     background-color: var(--bgcolor);
 }
 
+/* I need help block */
+
 .discribe {
     background-color: var(--lightgreen);
 }
 
 .discribe__title {
     color: var(--bordercolor);
-}
-
-.bg-sect {
-    background-color: var(--maingreen);
-}
-
-.text-sect {
-    color: var(--bordercolor);
-}
-
-.gift-image {
-    fill: var(--bordercolor);
 }
 
 .middle-block {
@@ -196,6 +197,8 @@ span {
     color: var(--bordercolor);
 }
 
+/* styles of report's block */
+
 .part {
     height: 200px;
     width: 200px;
@@ -243,6 +246,8 @@ span {
     background-position: center;
 }
 
+/* under footer block */
+
 .donat-sect, .under_footer {
     background-color: var(--lightgreen);
 }
@@ -254,6 +259,8 @@ span {
 .btn-donat:hover {
     background-color: var(--maingreen);
 }
+
+/* footer */
 
 .bg-footer {
     background-color: var(--lightgreen);
