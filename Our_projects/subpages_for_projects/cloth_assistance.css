@@ -14,6 +14,12 @@
 /* font-family: "Open Sans", sans-serif; */
 /* font-weight: 300; */
 
+/* Цвет фона всей страницы */
+
+body {
+  background-color: #eee;
+}
+
 /* Заголовок страницы */
 .cloth-assistance__h1 {
   font-family: "Pacifico", sans-serif;
