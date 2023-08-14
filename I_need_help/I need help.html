@@ -1,16 +1,262 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../assets/styles/normalize.css" />
-    <link rel="stylesheet" href="./assets/styles/style.css" />
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="../Our_projects/assets/styles/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="../Our_projects/assets/styles/styles.css" />
+    <link rel="stylesheet" href="./assets/styles/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
     <title>Мне нужна помощь</title>
-</head>
+  </head>
 
-<body>
+  <body>
+    <!-- Хедер -->
+    <header></header>
+    <!-- Заголовок страницы -->
+    <div class="container need-help-page">
+      <div class="row">
+        <div class="co12">
+          <h1 class="text-center need-help__h1">Мне нужна помощь</h1>
+        </div>
+      </div>
+    </div>
 
-</body>
+    <!-- Кому оказываем помощь -->
+    <div class="container">
+      <div class="row">
+        <div class="co12">
+          <div class="need-help-container shadow-lg p-3">
+            <h3 class="need-help__h3 text-center px-3">
+              Мы оказываем помощь на территории Алтайского края следующим
+              категориям:
+            </h3>
+            <div class="px-3">
+              <ul>
+                <li>одинокие пожилые люди, живущие дома;</li>
+                <li>люди с ограниченными возможностями 18+;</li>
+                <li>дом-интернаты для престарелых и инвалидов;</li>
+                <li>психоневрологические интернаты;</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <!-- Ссылка на форму "Мне нужна помощь" -->
+    <div class="container">
+      <div class="row">
+        <div class="co12">
+          <div class="need-help-container-white shadow-lg mt-5 p-3">
+            <h3 class="text-center need-help__h3 px-3">
+              Если Вам нужна помощь, необходимо заполнить форму ниже и мы
+              свяжемся с вами:
+            </h3>
+            <div
+              class="p-4 projects-page__card-footer mx-auto justify-content-evenly d-flex"
+            >
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSddTx6_td4USRzMqxmpKZgT0ih1fnDmrDM2DdBHlK2kiKTMSw/viewform"
+                class="btn-lg btn-secondary border-2 card-footer__orange-btn need-help-btn"
+                >МНЕ НУЖНА ПОМОЩЬ</a
+              >
+            </div>
+            <p class="fw-bolder p-3">
+              Обращаем внимание: мы не оказываем помощь в денежном эквиваленте,
+              не оплачиваем долговые обязательства, не приобретаем жилье и
+              прочее.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Варианты помощи -->
+    <div class="container">
+      <div class="row">
+        <div class="co12">
+          <div class="need-help-container shadow-lg mt-5 p-3">
+            <h3 class="need-help__h3 px-3">Варианты помощи:</h3>
+            <ul class="m-3">
+              <li>продуктовая помощь;</li>
+              <li>помощь в покупке угля и дров;</li>
+              <li>вещевая помощь;</li>
+              <li>
+                помощь уходовыми средствами (подгузники, урологические
+                прокладки, пеленки, кремы, мази, пенки);
+              </li>
+              <li>помощь в уборке;</li>
+              <li>мелкий ремонт (печи, двери, окна, косметический ремонт);</li>
+              <li>мелкая бытовая техника;</li>
+              <li>средства технической реабилитации.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Заголовок аккордеона FAQ -->
+    <div class="container photos-page">
+      <div class="row">
+        <div class="co12">
+          <h2 class="need-help__h3 mt-5 mb-3 text-center">Частые вопросы</h2>
+        </div>
+      </div>
+    </div>
+    <!-- Аккаордеон FAQ -->
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="accordion shadow" id="accordionNeedHelp">
+            <div class="accordion-item accordion-item-need-help">
+              <h2 class="accordion-header accordion-headerNeedHelp">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseOne"
+                >
+                  <strong
+                    >Мы отправили заявку больше месяца назад, но помощь до сих
+                    пор не получили.</strong
+                  >
+                </button>
+              </h2>
+              <div
+                id="flush-collapseOne"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionNeedHelp"
+              >
+                <div class="accordion-body">
+                  <p>
+                    Ежедневно нам поступает большой поток заявок, возможно,
+                    очередь до вашей заявки еще не дошла. Если вы хотите
+                    уточнить статус вашего обращения, напишите нам на почту
+                    <a
+                      class="need-help-link"
+                      href="mailto:starikam.altai@gmail.com"
+                      >starikam.altai@gmail.com</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header accordion-headerNeedHelp">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseTwo"
+                >
+                  <strong>Каким категориям нуждающихся вы помогаете?</strong>
+                </button>
+              </h2>
+              <div
+                id="flush-collapseTwo"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionNeedHelp"
+              >
+                <div class="accordion-body">
+                  <ul>
+                    <li>одинокие пожилые люди, живущие дома;</li>
+                    <li>люди с ограниченными возможностями 18+;</li>
+                    <li>дом-интернаты для престарелых и инвалидов;</li>
+                    <li>психоневрологические интернаты.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header accordion-headerNeedHelp">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThree"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseThree"
+                >
+                  <strong>Как вы проверяете благополучателей?</strong>
+                </button>
+              </h2>
+              <div
+                id="flush-collapseThree"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionNeedHelp"
+              >
+                <div class="accordion-body">
+                  Мы используем информацию наших партнеров – благотворительных и
+                  волонтерских организаций, центров социальной защиты населения.
+                  В некоторых случаях волонтеры проекта лично проверяют условия
+                  проживания благополучателей.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header accordion-headerNeedHelp">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseFour"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseFour"
+                >
+                  <strong>Как с Вами связаться?</strong>
+                </button>
+              </h2>
+              <div
+                id="flush-collapseFour"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionNeedHelp"
+              >
+                <div class="accordion-body">
+                  <ul>
+                    <li>
+                      написать
+                      <a
+                        class="need-help-link"
+                        href="mailto:starikam.altai@gmail.com"
+                        >starikam.altai@gmail.com</a
+                      >;
+                    </li>
+                    <li>
+                      позвонить
+                      <a class="need-help-link" href="tel:+79230065688"
+                        >+7 923 006 56 88</a
+                      >;
+                    </li>
+                    <li>
+                      написать в
+                      <a
+                        class="need-help-link"
+                        href="http://vk.com/starikam.altai"
+                        >ВК</a
+                      >.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Футер -->
+    <footer></footer>
+    <script src="../Our_projects/assets/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
