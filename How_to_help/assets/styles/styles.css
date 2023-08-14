@@ -8,7 +8,7 @@
 }
 
 body {
-    background: var(--lightgreen);
+    background: #eee;
 }
 
 /* Шрифт заголовков */
@@ -32,6 +32,7 @@ body {
 /* Кнопка */
 .card-footer__orange-btn {
     background: var(--brightorange);
+    border-color: var(--brightorange);
 }
 
 .card-footer__orange-btn:hover {
@@ -42,4 +43,5 @@ body {
 ul.list-group {
     list-style: none;
     padding-left: 0;
+
 }
