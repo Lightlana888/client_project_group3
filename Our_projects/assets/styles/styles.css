@@ -16,7 +16,7 @@
 
 /* Заголовок страницы */
 .projects-page__h1 {
-  font-family: "Pacifico", sans-serif;
+  font-family: "Comfortaa", sans-serif;
   color: var(--brightorange);
   margin-top: 5vw;
   margin-bottom: 5vw;
@@ -36,7 +36,7 @@ body {
 }
 
 .projects-page__card-title {
-  font-family: "Pacifico", sans-serif;
+  font-family: "Comfortaa", sans-serif;
   color: var(--brightorange);
 }
 
