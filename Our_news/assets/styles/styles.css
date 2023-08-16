@@ -13,15 +13,6 @@ body {
 
 
 
-/* styles of social media icons */
-
-.social-image {
-    fill: var(--brightorange);
-}
-
-.social-image:hover {
-    fill: var(--green);
-}
 
 /*title*/
 .our_news_h1 {
@@ -39,7 +30,7 @@ body {
     border-radius: 10px;
 }
 
-/*стили фото*/
+/*общие стили фото*/
 
 .news_1-photo,
 .news_2-photo-1,
@@ -58,12 +49,14 @@ body {
     overflow: hidden !important;
 }
 
+/*размеры и путь фото Блок 1*/
 .news_1-photo {
     background-image: url(../images/Image.jpg);
     min-height: 300px;
     min-width: 280px;
 }
 
+/*размеры фото Блок 2*/
 .news_2-photo-1,
 .news_2-photo-2,
 .news_2-photo-3 {
@@ -83,6 +76,7 @@ body {
     background-image: url(../images/Image_3.jpg);
 }
 
+/*размеры фото Блок 2*/
 .news_3-photo-1,
 .news_3-photo-2,
 .news_3-photo-3 {
@@ -102,6 +96,7 @@ body {
     background-image: url(../images/Image_6.jpg);
 }
 
+/*размеры фото Блок 3*/
 .news_4_inside-photo-1,
 .news_4_inside-photo-2,
 .news_4_inside-photo-3 {
@@ -121,7 +116,7 @@ body {
     background-image: url(../images/Image_13.jpg);
 }
 
+/*ссылка на сторонний сайт*/
 .news-text a {
     text-decoration: none;
-
 }
