@@ -1,0 +1,300 @@
+:root {
+    --maingreen: #b4d3a7;
+    --bgcolor: #f07f5f;
+    --middlegreen: #c6dab5;
+    --lightgreen: #dde5ce;
+    --bordercolor: #e84841;
+    --whitecolor: #fff;
+    --green: #b4d3a7;
+    --orange: #f07f5f;
+    --middlegreen: #c6dab5;
+    --lightgreen: #dde5ce;
+    --brightorange: #e84841;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Pacifico', cursive;
+}
+
+/* Beginning of the header */
+
+.logo {
+    width: 150px;
+}
+
+.bg-main {
+    background-color: var(--bgcolor) !important;
+}
+
+a {
+    color: var(--whitecolor);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--maingreen);
+}
+
+.bg-green {
+    background-color: var(--maingreen) !important;
+}
+
+.my-text {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.down {
+    width: 30px;
+}
+
+/* Beginning of the block with owner's photo */
+
+.about-owners {
+    margin: 0 auto;
+}
+
+.owners {
+    background-image: url(../assets/images/owners.jpg);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    min-width: 280px;
+    overflow: hidden !important;
+}
+
+.my-btn {
+    background-color: var(--maingreen);
+    border: var(--maingreen);
+    padding: 10px 20px;
+    color: var(--bordercolor);
+}
+
+.my-btn:hover, .my-btn:focus, .my-btn:active {
+    background-color: var(--bordercolor);
+    color: var(--whitecolor);
+}
+
+/* Beginning of the confidental block */
+
+.politics, .my-politics {
+    background-color: var(--bgcolor);
+}
+
+.my-politics:active, .my-politics:focus {
+    background-color: var(--bgcolor);
+}
+
+.middle_btn {
+    width: 200px !important;
+}
+
+.dropp {
+    background-color: var(--maingreen);
+}
+
+/* styles of social media icons */
+
+.social-image {
+    fill: var(--bordercolor);
+}
+
+.social-image:hover {
+    fill: var(--maingreen);
+}
+
+/* end of style social media icons */
+
+.bg-card {
+    background-color: var(--bgcolor);
+}
+
+span {
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+}
+
+.bg-light_salmon {
+    background-color: var(--bgcolor);
+}
+
+/* I need help block */
+
+.discribe {
+    background-color: var(--lightgreen);
+}
+
+.discribe__title {
+    color: var(--bordercolor);
+}
+
+.middle-block {
+    display: flex;
+    gap: 50px;
+}
+
+.projects {
+    background-color: var(--bgcolor);
+}
+
+.projects-page__h1 {
+    font-family: "Pacifico", sans-serif;
+    color: var(--brightorange);
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+
+/* Общие стили для карточки */
+
+.bg-projects {
+    background-color: var(--middlegreen);
+}
+
+.projects-page__card {
+    max-width: 450px;
+    margin: auto;
+}
+
+.projects-page__card-title {
+    font-family: "Pacifico", sans-serif;
+    color: var(--brightorange);
+}
+
+.card-img-top {
+    max-height: 300px;
+}
+
+.projects-page__card-footer {
+    background-color: white;
+    border-top: none;
+}
+
+.card-footer__orange-btn {
+    background-color: var(--brightorange);
+    border-color: var(--brightorange);
+    margin-top: 5px;
+}
+
+.card-footer__white-btn {
+    color: var(--brightorange);
+    border-color: var(--brightorange);
+    margin-top: 5px;
+}
+
+.card-footer__orange-btn:hover,
+.card-footer__white-btn:hover {
+    background-color: var(--green);
+    border-color: var(--green);
+}
+
+.articles-link {
+    color: var(--bordercolor);
+}
+
+/* styles of report's block */
+
+.part {
+    height: 200px;
+    width: 200px;
+}
+
+.part_one {
+    background-image: url(../assets/images/alfa_bank.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.part_two {
+    background-image: url(../assets/images/cdek.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.part_three {
+    background-image: url(../assets/images/chocolad.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.part_four {
+    background-image: url(../assets/images/dari_edu.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.part_five {
+    background-image: url(../assets/images/glavparfumer.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.part_six {
+    background-image: url(../assets/images/starost_v_radost.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* About organization page */
+.carousel {
+    max-width: 600px !important;
+    margin: 0 auto;
+}
+
+.carousel-inner img {
+    max-height: 650px !important;
+    margin: 0 auto;
+}
+
+.carousel-indicators li {
+    border-color: #000;
+}
+
+.carousel-indicators .active {
+    background-color: #000;
+}
+
+.organization_img {
+    max-width: 250px;
+}
+
+.org-link:hover {
+    color: var(--bordercolor) !important;
+}
+
+/* End organization page */
+
+/* under footer block */
+
+.donat-sect, .under_footer {
+    background-color: var(--lightgreen);
+}
+
+.btn-donat {
+    background-color: var(--bordercolor);
+}
+
+.btn-donat:hover {
+    background-color: var(--maingreen);
+}
+
+/* footer */
+
+.bg-footer {
+    background-color: var(--lightgreen);
+}
+
+.form-donat {
+    max-width: 300px;
+}
