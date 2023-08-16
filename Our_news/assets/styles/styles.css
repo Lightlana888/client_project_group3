@@ -12,18 +12,138 @@
     --brightorange: #e84841;
 }
 
-.reports_h1,
-.report_title {
-    color: var(--brightorange);
-    font-family: 'Pacifico', cursive;
-}
-
-/*последний пост*/
-.row.stories {
-    justify-content: space-between;
-
-}
-
 body {
     background: #eee;
+}
+
+/* Beginning of the header */
+
+.logo {
+    width: 150px;
+}
+
+.navbar-main {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.nav-link-main {
+    font-size: smaller;
+}
+
+.main_h1 {
+    font-family: "Comfortaa", sans-serif;
+    color: var(--brightorange);
+}
+
+.down {
+    width: 30px;
+}
+
+/* styles of social media icons */
+
+.social-image {
+    fill: var(--brightorange);
+}
+
+.social-image:hover {
+    fill: var(--green);
+}
+
+/*title*/
+.our_news_h1 {
+    color: var(--brightorange);
+    font-family: "Comfortaa", sans-serif;
+}
+
+/*общие стили блоков*/
+.news_1,
+.news_2,
+.news_3,
+.news_4,
+.news_4_inside {
+    background: white;
+    border-radius: 10px;
+}
+
+/*стили фото*/
+
+.news_1-photo,
+.news_2-photo-1,
+.news_2-photo-2,
+.news_2-photo-3,
+.news_3-photo-1,
+.news_3-photo-2,
+.news_3-photo-3,
+.news_4_inside-photo-1,
+.news_4_inside-photo-2,
+.news_4_inside-photo-3 {
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden !important;
+}
+
+.news_1-photo {
+    background-image: url(../images/Image.jpg);
+    min-height: 300px;
+    min-width: 280px;
+}
+
+.news_2-photo-1,
+.news_2-photo-2,
+.news_2-photo-3 {
+    min-height: 600px;
+    min-width: 280px;
+}
+
+.news_2-photo-1 {
+    background-image: url(../images/Image_1.jpg);
+}
+
+.news_2-photo-2 {
+    background-image: url(../images/Image_2.jpg);
+}
+
+.news_2-photo-3 {
+    background-image: url(../images/Image_3.jpg);
+}
+
+.news_3-photo-1,
+.news_3-photo-2,
+.news_3-photo-3 {
+    min-height: 380px;
+    min-width: 280px;
+}
+
+.news_3-photo-1 {
+    background-image: url(../images/Image_7.jpg);
+}
+
+.news_3-photo-2 {
+    background-image: url(../images/Image_9.jpg);
+}
+
+.news_3-photo-3 {
+    background-image: url(../images/Image_6.jpg);
+}
+
+.news_4_inside-photo-1,
+.news_4_inside-photo-2,
+.news_4_inside-photo-3 {
+    min-height: 600px;
+    min-width: 280px;
+}
+
+.news_4_inside-photo-1 {
+    background-image: url(../images/Image_11.jpg);
+}
+
+.news_4_inside-photo-2 {
+    background-image: url(../images/Image_12.jpg);
+}
+
+.news_4_inside-photo-3 {
+    background-image: url(../images/Image_13.jpg);
 }
