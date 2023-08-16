@@ -20,6 +20,10 @@ body {
     font-family: "Comfortaa", sans-serif;
 }
 
+.our-news-page__card-title {
+    font-family: "Comfortaa", sans-serif;
+}
+
 /*общие стили блоков*/
 .news_1,
 .news_2,
