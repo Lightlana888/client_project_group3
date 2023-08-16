@@ -18,6 +18,12 @@ body {
 .our_news_h1 {
     color: var(--brightorange);
     font-family: "Comfortaa", sans-serif;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+
+.our-news-page__card-title {
+    font-family: "Comfortaa", sans-serif;
 }
 
 /*общие стили блоков*/

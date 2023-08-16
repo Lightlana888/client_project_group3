@@ -15,21 +15,23 @@ body {
 /* font-family: "Pacifico", sans-serif; */
 
 
-/* Заголовок страницы */
+/* Заголовок страницы, заголовки карточек */
 .how_to_help_h1,
 .how-to-help-page__card-title {
-    font-family: "Pacifico", sans-serif;
+    font-family: "Comfortaa", sans-serif;
+    color: var(--brightorange);
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+
+.how-to-help-page__card-title_3 {
+    font-family: "Comfortaa", sans-serif;
     color: var(--brightorange);
     margin-top: 5vw;
     margin-bottom: 3vw;
 }
 
-/* Заголовок страницы */
-.how_to_help_h1 {
-    text-transform: uppercase;
-}
-
-/* Кнопка */
+/* Кнопки */
 .card-footer__orange-btn {
     background: var(--brightorange);
     border-color: var(--brightorange);
@@ -38,10 +40,4 @@ body {
 .card-footer__orange-btn:hover {
     background-color: var(--green);
     border-color: var(--green);
-}
-
-ul.list-group {
-    list-style: none;
-    padding-left: 0;
-
 }
