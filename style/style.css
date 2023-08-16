@@ -34,7 +34,13 @@ body {
 }
 
 .nav-link-main {
-  font-size: smaller;
+  font-size: 13px;
+  font-weight: 600;
+  color: black !important;
+}
+
+.nav-link-main:hover {
+  color: var(--brightorange) !important;
 }
 
 .main_h1 {
