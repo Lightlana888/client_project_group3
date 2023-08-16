@@ -19,56 +19,14 @@
 /* Цвет фона всей страницы */
 
 body {
-  background-color: #eee;
+  background-color: var(--gray);
 }
 
-/* Beginning of the header */
-
-.logo {
-  width: 150px;
-}
-
-.navbar-main {
-  background-color: white;
-  border-radius: 10px;
-}
-
-.nav-link-main {
-  font-size: 13px;
-  font-weight: 600;
-  color: black !important;
-}
-
-.nav-link-main:hover {
-  color: var(--brightorange) !important;
-}
+/* Начало главной страницы */
 
 .main_h1 {
   font-family: "Comfortaa", sans-serif;
   color: var(--brightorange);
-}
-
-.down {
-  width: 30px;
-}
-
-/* styles of social media icons */
-
-.social-image {
-  fill: var(--brightorange);
-}
-
-.social-image-footer {
-  fill: white;
-}
-
-.social-image:hover,
-.social-image-footer:hover {
-  fill: var(--green);
-}
-
-.social-image-link {
-  text-decoration: none;
 }
 
 /* Beginning of the block with owner's photo */
@@ -79,7 +37,7 @@ body {
 }
 
 .owners-photo {
-  background-image: url(../assets/images/owners.jpg);
+  background-image: url(../images/owners.jpg);
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -205,21 +163,21 @@ span {
 }
 
 .part_1 {
-  background-image: url(../assets/images/alfa_bank.png);
+  background-image: url(../images/alfa_bank.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .part_2 {
-  background-image: url(../assets/images/cdek.jpg);
+  background-image: url(../images/cdek.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .part_3 {
-  background-image: url(../assets/images/chocolad.jpeg);
+  background-image: url(../images/chocolad.jpeg);
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -228,14 +186,14 @@ span {
 }
 
 .part_4 {
-  background-image: url(../assets/images/dari_edu.jpg);
+  background-image: url(../images/dari_edu.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .part_5 {
-  background-image: url(../assets/images/glavparfumer.jpg);
+  background-image: url(../images/glavparfumer.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -244,50 +202,17 @@ span {
 }
 
 .part_6 {
-  background-image: url(../assets/images/starost_v_radost.jpg);
+  background-image: url(../images/starost_v_radost.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .part_7 {
-  background-image: url(../assets/images/мтс.jpg);
+  background-image: url(../images/мтс.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-}
-
-/* Стили для футера */
-
-.footer {
-  background-color: var(--orange);
-}
-
-.nav-link-footer {
-  text-decoration: none;
-  font-size: 14px;
-  font-family: "Comfortaa", sans-serif;
-}
-
-.nav-link-footer:hover {
-  color: var(--green) !important;
-}
-
-.donat-sect,
-.under_footer {
-  background-color: var(--lightgreen);
-}
-
-.btn-donat {
-  background-color: var(--bordercolor);
-}
-
-.btn-donat:hover {
-  background-color: var(--maingreen);
-}
-
-.form-donat {
-  max-width: 300px;
 }
 
 /* About organization page */

@@ -7,16 +7,9 @@
   --brightorange: #e84841;
 }
 
-/* Шрифт заголовков */
-/* font-family: "Pacifico", sans-serif; */
-
-/* Шрифт текста */
-/* font-family: "Open Sans", sans-serif; */
-/* font-weight: 300; */
-
 /* Заголовок страницы */
 .food-assistance__h1 {
-  font-family: "Pacifico", sans-serif;
+  font-family: "Comfortaa", sans-serif;
   color: var(--brightorange);
   margin-top: 5vw;
   margin-bottom: 5vw;
