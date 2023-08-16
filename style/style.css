@@ -34,7 +34,13 @@ body {
 }
 
 .nav-link-main {
-  font-size: smaller;
+  font-size: 13px;
+  font-weight: 600;
+  color: black !important;
+}
+
+.nav-link-main:hover {
+  color: var(--brightorange) !important;
 }
 
 .main_h1 {
@@ -52,8 +58,17 @@ body {
   fill: var(--brightorange);
 }
 
-.social-image:hover {
+.social-image-footer {
+  fill: white;
+}
+
+.social-image:hover,
+.social-image-footer:hover {
   fill: var(--green);
+}
+
+.social-image-link {
+  text-decoration: none;
 }
 
 /* Beginning of the block with owner's photo */
@@ -205,9 +220,11 @@ span {
 
 .part_3 {
   background-image: url(../assets/images/chocolad.jpeg);
-  background-size: contain;
+  background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
+  height: 60px;
+  border-radius: 10px;
 }
 
 .part_4 {
@@ -219,9 +236,11 @@ span {
 
 .part_5 {
   background-image: url(../assets/images/glavparfumer.jpg);
-  background-size: contain;
+  background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
+  height: 90px;
+  border-radius: 10px;
 }
 
 .part_6 {
@@ -240,6 +259,20 @@ span {
 
 /* Стили для футера */
 
+.footer {
+  background-color: var(--orange);
+}
+
+.nav-link-footer {
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "Comfortaa", sans-serif;
+}
+
+.nav-link-footer:hover {
+  color: var(--green) !important;
+}
+
 .donat-sect,
 .under_footer {
   background-color: var(--lightgreen);
@@ -251,10 +284,6 @@ span {
 
 .btn-donat:hover {
   background-color: var(--maingreen);
-}
-
-.bg-footer {
-  background-color: var(--lightgreen);
 }
 
 .form-donat {
