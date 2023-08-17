@@ -8,13 +8,13 @@
 }
 
 body {
-    background: #eee;
+    background: var(--gray)
 }
 
 
 
 
-/*title*/
+/*заголовок страницы*/
 .our_news_h1 {
     color: var(--brightorange);
     font-family: "Comfortaa", sans-serif;
@@ -22,6 +22,7 @@ body {
     margin-bottom: 5vw;
 }
 
+/*заголовки карточек*/
 .our-news-page__card-title {
     font-family: "Comfortaa", sans-serif;
 }
@@ -58,16 +59,25 @@ body {
 /*размеры и путь фото Блок 1*/
 .news_1-photo {
     background-image: url(../images/Image.jpg);
-    min-height: 300px;
-    min-width: 280px;
+    min-height: 400px;
+    min-width: 300px;
+    max-height: 720px;
+    max-width: 520px;
+    justify-self: center;
 }
 
+
 /*размеры фото Блок 2*/
+
 .news_2-photo-1,
 .news_2-photo-2,
 .news_2-photo-3 {
-    min-height: 630px;
-    min-width: 280px;
+    min-height: 380px;
+    min-width: 340px;
+}
+
+.news_2-photo {
+    align-self: center;
 }
 
 .news_2-photo-1 {
@@ -82,12 +92,13 @@ body {
     background-image: url(../images/Image_3.jpg);
 }
 
-/*размеры фото Блок 2*/
+/*размеры фото Блок 3*/
+
 .news_3-photo-1,
 .news_3-photo-2,
 .news_3-photo-3 {
-    min-height: 450px;
-    min-width: 280px;
+    min-height: 380px;
+    min-width: 340px;
 }
 
 .news_3-photo-1 {
@@ -102,12 +113,12 @@ body {
     background-image: url(../images/Image_6.jpg);
 }
 
-/*размеры фото Блок 3*/
+/*размеры фото Блок 4*/
 .news_4_inside-photo-1,
 .news_4_inside-photo-2,
 .news_4_inside-photo-3 {
-    min-height: 600px;
-    min-width: 280px;
+    min-height: 420px;
+    min-width: 320px;
 }
 
 .news_4_inside-photo-1 {
@@ -120,6 +131,10 @@ body {
 
 .news_4_inside-photo-3 {
     background-image: url(../images/Image_13.jpg);
+}
+
+.news_4_inside {
+    justify-content: space-around;
 }
 
 /*ссылка на сторонний сайт*/
