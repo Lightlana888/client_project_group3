@@ -35,10 +35,6 @@ body {
     margin: auto;
 }
 
-.finance-page__card {
-    max-width: 300px;
-}
-
 /* Кнопки */
 .card-footer__orange-btn {
     background: var(--brightorange);
