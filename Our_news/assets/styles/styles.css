@@ -123,6 +123,12 @@ body {
 }
 
 /*ссылка на сторонний сайт*/
-.news-text a {
+.contact-link {
     text-decoration: none;
+    font-weight: 600;
+    color: var(--brightorange);
+}
+
+.contact-link:hover {
+    color: var(--green);
 }

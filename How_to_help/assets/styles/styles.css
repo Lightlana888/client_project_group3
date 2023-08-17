@@ -17,18 +17,21 @@ body {
 
 /* Заголовок страницы, заголовки карточек */
 .how_to_help_h1,
-.how-to-help-page__card-title {
+.finance-page_h1 {
     font-family: "Comfortaa", sans-serif;
     color: var(--brightorange);
     margin-top: 5vw;
     margin-bottom: 5vw;
 }
 
-.how-to-help-page__card-title_3 {
+.how-to-help-page__card-title,
+.finance-page__card-title {
     font-family: "Comfortaa", sans-serif;
     color: var(--brightorange);
-    margin-top: 5vw;
-    margin-bottom: 3vw;
+}
+
+.finance-page__card {
+    max-width: 300px;
 }
 
 /* Кнопки */
