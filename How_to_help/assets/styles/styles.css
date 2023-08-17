@@ -30,6 +30,11 @@ body {
     color: var(--brightorange);
 }
 
+.how-to-help-page__card {
+    max-width: 450px;
+    margin: auto;
+}
+
 .finance-page__card {
     max-width: 300px;
 }
