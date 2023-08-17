@@ -58,3 +58,15 @@ body {
   background-color: var(--green);
   border-color: var(--green);
 }
+
+/* Стиль для ссылок */
+
+.contact-link {
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--brightorange);
+}
+
+.contact-link:hover {
+  color: var(--green);
+}
