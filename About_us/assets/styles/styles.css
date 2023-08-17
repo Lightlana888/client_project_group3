@@ -43,6 +43,7 @@ body {
 }
 
 .about-container-white {
+  background-color: white;
   border-radius: 10px;
   border: var(--orange) solid 1px;
 }
