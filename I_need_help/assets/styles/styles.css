@@ -31,12 +31,28 @@
 
 .need-help-container-white {
   border-radius: 10px;
+  border: var(--orange) solid 1px;
 }
 
 /* Кнопка */
 
-.need-help-btn {
+.card-footer__orange-btn {
+  background-color: var(--brightorange);
+  border-color: var(--brightorange);
+  margin-top: 5px;
   text-decoration: none;
+}
+
+.card-footer__white-btn {
+  color: var(--brightorange);
+  border-color: var(--brightorange);
+  margin-top: 5px;
+}
+
+.card-footer__orange-btn:hover,
+.card-footer__white-btn:hover {
+  background-color: var(--green);
+  border-color: var(--green);
 }
 
 /* Cтили для аккордеона */

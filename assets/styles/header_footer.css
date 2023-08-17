@@ -17,6 +17,11 @@
 .navbar-main {
   background-color: white;
   border-radius: 10px;
+  border: var(--brightorange) solid 2px;
+}
+
+.navbar-main:hover {
+  border: var(--orange) solid 2px;
 }
 
 .nav-link-main {
