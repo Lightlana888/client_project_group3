@@ -1,47 +1,43 @@
 /* Основные цвета */
 :root {
-    --green: #b4d3a7;
-    --orange: #f07f5f;
-    --middlegreen: #c6dab5;
-    --lightgreen: #dde5ce;
-    --brightorange: #e84841;
+  --green: #b4d3a7;
+  --orange: #f07f5f;
+  --middlegreen: #c6dab5;
+  --lightgreen: #dde5ce;
+  --brightorange: #e84841;
 }
 
 body {
-    background: #eee;
+  background: #eee;
 }
-
-/* Шрифт заголовков */
-/* font-family: "Pacifico", sans-serif; */
-
 
 /* Заголовок страницы, заголовки карточек */
 .how_to_help_h1,
 .finance-page_h1 {
-    font-family: "Comfortaa", sans-serif;
-    color: var(--brightorange);
-    margin-top: 5vw;
-    margin-bottom: 5vw;
+  font-family: "Comfortaa", sans-serif;
+  color: var(--brightorange);
+  margin-top: 5vw;
+  margin-bottom: 5vw;
 }
 
 .how-to-help-page__card-title,
 .finance-page__card-title {
-    font-family: "Comfortaa", sans-serif;
-    color: var(--brightorange);
+  font-family: "Comfortaa", sans-serif;
+  color: var(--brightorange);
 }
 
 .how-to-help-page__card {
-    max-width: 450px;
-    margin: auto;
+  max-width: 450px;
+  margin: auto;
 }
 
 /* Кнопки */
 .card-footer__orange-btn {
-    background: var(--brightorange);
-    border-color: var(--brightorange);
+  background: var(--brightorange);
+  border-color: var(--brightorange);
 }
 
 .card-footer__orange-btn:hover {
-    background-color: var(--green);
-    border-color: var(--green);
+  background-color: var(--green);
+  border-color: var(--green);
 }
