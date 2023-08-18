@@ -1,30 +1,27 @@
 :root {
-    --gray: #eee;
-    --green: #b4d3a7;
-    --orange: #f07f5f;
-    --middlegreen: #c6dab5;
-    --lightgreen: #dde5ce;
-    --brightorange: #e84841;
+  --gray: #eee;
+  --green: #b4d3a7;
+  --orange: #f07f5f;
+  --middlegreen: #c6dab5;
+  --lightgreen: #dde5ce;
+  --brightorange: #e84841;
 }
 
 body {
-    background: var(--gray)
+  background: var(--gray);
 }
-
-
-
 
 /*заголовок страницы*/
 .our_news_h1 {
-    color: var(--brightorange);
-    font-family: "Comfortaa", sans-serif;
-    margin-top: 5vw;
-    margin-bottom: 5vw;
+  color: var(--brightorange);
+  font-family: "Comfortaa", sans-serif;
+  margin-top: 5vw;
+  margin-bottom: 5vw;
 }
 
 /*заголовки карточек*/
 .our-news-page__card-title {
-    font-family: "Comfortaa", sans-serif;
+  font-family: "Comfortaa", sans-serif;
 }
 
 /*общие стили блоков*/
@@ -33,8 +30,8 @@ body {
 .news_3,
 .news_4,
 .news_4_inside {
-    background: white;
-    border-radius: 10px;
+  background: white;
+  border-radius: 10px;
 }
 
 /*общие стили фото*/
@@ -49,47 +46,46 @@ body {
 .news_4_inside-photo-1,
 .news_4_inside-photo-2,
 .news_4_inside-photo-3 {
-    background-position: top center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 10px;
-    overflow: hidden !important;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  overflow: hidden !important;
 }
 
 /*размеры и путь фото Блок 1*/
 .news_1-photo {
-    background-image: url(../images/Image.jpg);
-    min-height: 400px;
-    min-width: 300px;
-    max-height: 720px;
-    max-width: 520px;
-    justify-self: center;
+  background-image: url(../images/Image.jpg);
+  min-height: 400px;
+  min-width: 300px;
+  max-height: 720px;
+  max-width: 520px;
+  justify-self: center;
 }
-
 
 /*размеры фото Блок 2*/
 
 .news_2-photo-1,
 .news_2-photo-2,
 .news_2-photo-3 {
-    min-height: 380px;
-    min-width: 340px;
+  min-height: 380px;
+  min-width: 340px;
 }
 
 .news_2-photo {
-    align-self: center;
+  align-self: center;
 }
 
 .news_2-photo-1 {
-    background-image: url(../images/Image_1.jpg);
+  background-image: url(../images/Image_1.jpg);
 }
 
 .news_2-photo-2 {
-    background-image: url(../images/Image_2.jpg);
+  background-image: url(../images/Image_2.jpg);
 }
 
 .news_2-photo-3 {
-    background-image: url(../images/Image_3.jpg);
+  background-image: url(../images/Image_3.jpg);
 }
 
 /*размеры фото Блок 3*/
@@ -97,53 +93,53 @@ body {
 .news_3-photo-1,
 .news_3-photo-2,
 .news_3-photo-3 {
-    min-height: 380px;
-    min-width: 340px;
+  min-height: 380px;
+  min-width: 340px;
 }
 
 .news_3-photo-1 {
-    background-image: url(../images/Image_7.jpg);
+  background-image: url(../images/Image_7.jpg);
 }
 
 .news_3-photo-2 {
-    background-image: url(../images/Image_9.jpg);
+  background-image: url(../images/Image_9.jpg);
 }
 
 .news_3-photo-3 {
-    background-image: url(../images/Image_6.jpg);
+  background-image: url(../images/Image_6.jpg);
 }
 
 /*размеры фото Блок 4*/
 .news_4_inside-photo-1,
 .news_4_inside-photo-2,
 .news_4_inside-photo-3 {
-    min-height: 420px;
-    min-width: 320px;
+  min-height: 420px;
+  min-width: 320px;
 }
 
 .news_4_inside-photo-1 {
-    background-image: url(../images/Image_11.jpg);
+  background-image: url(../images/Image_11.jpg);
 }
 
 .news_4_inside-photo-2 {
-    background-image: url(../images/Image_12.jpg);
+  background-image: url(../images/Image_12.jpg);
 }
 
 .news_4_inside-photo-3 {
-    background-image: url(../images/Image_13.jpg);
+  background-image: url(../images/Image_13.jpg);
 }
 
 .news_4_inside {
-    justify-content: space-around;
+  justify-content: space-around;
 }
 
 /*ссылка на сторонний сайт*/
 .contact-link {
-    text-decoration: none;
-    font-weight: 600;
-    color: var(--brightorange);
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--brightorange);
 }
 
 .contact-link:hover {
-    color: var(--green);
+  color: var(--green);
 }

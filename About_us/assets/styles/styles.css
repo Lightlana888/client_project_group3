@@ -60,16 +60,6 @@ body {
   max-height: 200px;
 }
 
-.carousel {
-  max-width: 600px !important;
-  margin: 0 auto;
-}
-
-.carousel-inner img {
-  max-height: 650px !important;
-  margin: 0 auto;
-}
-
 .carousel-indicators li {
   border-color: #000;
 }
