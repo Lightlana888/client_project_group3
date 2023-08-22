@@ -43,6 +43,10 @@ body {
   overflow: hidden !important;
 }
 
+.owner-tex-p {
+  text-indent: 20px;
+}
+
 /* Beginning of the confidental block */
 
 .politics,
