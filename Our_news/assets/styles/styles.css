@@ -25,6 +25,7 @@ body {
 }
 
 /*общие стили блоков*/
+.news_0,
 .news_1,
 .news_2,
 .news_3,
@@ -35,16 +36,7 @@ body {
 }
 
 /*общие стили фото*/
-.news_0-photo-1,
-.news_0-photo-2,
-.news_0-photo-3,
-.news_0-photo-4,
-.news_0-photo-5,
-.news_0-photo-6,
-.news_0-photo-7,
-.news_0-photo-8,
-.news_0-photo-9,
-.news_0-photo-10,
+
 .news_1-photo,
 .news_2-photo-1,
 .news_2-photo-2,
@@ -62,44 +54,20 @@ body {
   overflow: hidden !important;
 }
 
-.news_0-photo-1 {
-  background-image: url(../images/image_17.jpg);
+
+.carousel-item img {
+  max-height: 100%;
+  max-width: 100%;
+
+  border-radius: 10px;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
-.news_0-photo-2 {
-  background-image: url(../images/image_18.jpg);
-}
-
-.news_0-photo-3 {
-  background-image: url(../images/image_19.jpg);
-}
-
-.news_0-photo-4 {
-  background-image: url(../images/image_20.jpg);
-}
-
-.news_0-photo-5 {
-  background-image: url(../images/image_21.jpg);
-}
-
-.news_0-photo-6 {
-  background-image: url(../images/image_22.jpg);
-}
-
-.news_0-photo-7 {
-  background-image: url(../images/image_23.jpg);
-}
-
-.news_0-photo-8 {
-  background-image: url(../images/image_24.jpg);
-}
-
-.news_0-photo-9 {
-  background-image: url(../images/image_25.jpg);
-}
-
-.news_0-photo-10 {
-  background-image: url(../images/image_26.jpg);
+.carousel-control-prev,
+.carousel-control-next {
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 
