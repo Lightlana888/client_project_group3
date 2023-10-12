@@ -35,7 +35,16 @@ body {
 }
 
 /*общие стили фото*/
-
+.news_0-photo-1,
+.news_0-photo-2,
+.news_0-photo-3,
+.news_0-photo-4,
+.news_0-photo-5,
+.news_0-photo-6,
+.news_0-photo-7,
+.news_0-photo-8,
+.news_0-photo-9,
+.news_0-photo-10,
 .news_1-photo,
 .news_2-photo-1,
 .news_2-photo-2,
@@ -52,6 +61,8 @@ body {
   border-radius: 10px;
   overflow: hidden !important;
 }
+
+
 
 /*размеры и путь фото Блок 1*/
 .news_1-photo {
