@@ -1,6 +1,6 @@
 # Charity foundation website
 <div align="center">
-<a href="https://xn--80aapkb0aygj1df.xn--p1ai/ id="readme-top">
+<a href="https://xn--80aapkb0aygj1df.xn--p1ai/">
     <img src="https://xn--80aapkb0aygj1df.xn--p1ai/assets/images/logo.png" width="350" />
   </a>
 <div/>
