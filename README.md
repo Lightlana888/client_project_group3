@@ -1,1 +1,4 @@
-# client_project_group3
+# Сайт для благотворительного Фонда "НАШИ СТАРШИЕ"
+# :older_woman: :older_man:
+
+## 
